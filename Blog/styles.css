@@ -1,0 +1,139 @@
+@import url(http://fonts.googleapis.com/
+  css?family=Monserrat: 400,700);
+
+body{
+  color: #555;
+  margin: 0;
+
+  font-family: 'Monserrat',sans-serif;
+
+}
+#header-title{
+  display: block;
+  float: left;
+
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#header-nav{
+  display: block;
+  float: right;
+  margin-top: 0;
+
+}
+#header-nav li{
+display: inline;
+padding-left: 20px;
+}
+#header {
+  background-color: #0cf7db;
+  height:150px;
+  line-height: 150px;
+
+}
+#header a{
+  color: white;
+  text-decoration: none;
+  text-transform:uppercase;
+  letter-spacing: 0.1em;
+}
+#header a:hover{
+  color: #222;
+}
+.container{
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+#navbar-links {
+  float: right;
+  display: block;
+  list-style-type: none;
+  margin: 0px;
+}
+
+
+
+
+
+
+.post{
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+.post-author img{
+  width: 80px;
+  height: 80px;
+  vertical-align: middle;
+  border-radius: 80px;
+}
+
+.post-author span{
+  margin-left: 16px;
+}
+.post-date{
+  color: #D2D2D2;
+
+  font-size: 11px;
+  font-weight: bold;
+
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+
+}
+
+h1, h2, h3, h4{
+  color: #333;
+}
+
+p{
+  line-height: 1.5;
+}
+
+
+
+.post, .about{
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+.about {
+  text-align: center;
+}
+.post-container:nth-child(even){
+  background-color: #f2f2f2;
+}
+
+
+
+
+#footer {
+  background-color: #2f2f2f;
+  height: 150px;
+  padding: 50px 0;
+}
+#footer h4{
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+#footer p{
+  color: white;
+}
+#footer a{
+  color: #0cf7db;
+  text-decoration: none;
+}
+#footer a:hover{
+  color: #F6A623;
+}
+
+.column{
+  min-width: 300px;
+  display: inline-block;
+  vertical-align: top;
+}
