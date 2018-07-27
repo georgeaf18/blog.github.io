@@ -1,1 +1,1 @@
-# blog.github.io
+# georgesblog.github.io
